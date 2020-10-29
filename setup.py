@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="jinja2_custom_filters_extension",
-    version="0.0.1",
+    version="0.0.2",
     author="Harish Sridhar",
     author_email="harish.18.sridhar@gmail.com",
     description="A package containing custom filters for jinja2",
@@ -15,7 +15,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "jinja2",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
